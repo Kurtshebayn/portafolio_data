@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scipy = "==1.13.1"
+matplotlib = "==3.9.1"
+pandas = "==2.2.2"
+numpy = "==2.0.0"
+plyer = "==2.1.0"
+requests = "==2.32.3"
+beautifulsoup4 = "==4.12.3"
+seaborn = "==0.13.2"
+cufflinks = "*"
+nbformat = "==5.10.4"
+statsmodels = "==0.14.2"
+scikit-learn = "==1.5.0"
+imblearn = "*"
+category_encoders = "==2.6.3"
+ipykernel = "==6.29.4"
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
